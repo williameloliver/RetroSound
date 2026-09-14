@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="18dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="RetroSound Receiver" android:textSize="24sp" android:textStyle="bold" />
+    <TextView android:id="@+id/ipText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="IP: …" android:textSize="16sp" android:layout_marginTop="18dp" />
+    <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Starting…" android:textSize="18sp" android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/formatText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Waiting for PC" android:textSize="16sp" android:layout_marginTop="12dp" />
+    <Button android:id="@+id/toggleButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="STOP LISTENING" android:layout_marginTop="24dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="TCP port 49152 • Connect headphones to this tablet" android:textSize="12sp" android:layout_marginTop="18dp" />
+</LinearLayout>
